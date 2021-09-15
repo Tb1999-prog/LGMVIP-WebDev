@@ -1,0 +1,104 @@
+/* Responsive code */
+
+@media(max-width:1206px) {
+    .card_container .social_icons {
+        left: 3.2rem;
+    }
+}
+
+@media(max-width:766px) {
+    .card_container .social_icons {
+        left: 15.2rem;
+    }
+}
+
+@media(max-width:540px) {
+    .card_container:hover .social_icons {
+        opacity: 0;
+    }
+}
+
+
+/* MOBILE VIEW */
+
+@media (max-width: 540px) {
+    .navbar-item {
+        padding-left: 1rem;
+        padding-right: 0rem;
+    }
+    .carousel-item {
+        width: 150%;
+    }
+    .carousel-card {
+        height: 10vh;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .carousel-caption p {
+        font-size: 3.5rem;
+        color: #fff;
+        padding-left: 0px;
+    }
+    .carousel-caption span {
+        margin-bottom: 50rem;
+    }
+    .button-01 {
+        display: none;
+    }
+    .carousel-caption .caption-01 {
+        padding-top: 1.5rem;
+        font-size: 3.5rem;
+        color: #fff;
+        padding-left: 0px;
+    }
+    .carousel-caption span {
+        font-size: 1.5rem;
+        color: #fff;
+        padding-left: 1px;
+        margin-left: 0px;
+    }
+    .caption-02 {
+        display: none;
+    }
+    .Home {
+        margin-top: 75rem;
+    }
+    .Home-para2-card-heading {
+        padding: 10% 5% 10% 0;
+        margin-left: 5rem;
+    }
+    .Pricing-plans {
+        text-align: center;
+        padding-top: 2rem;
+        padding-right: 6rem;
+    }
+    #videos {
+        padding: 50% 0;
+    }
+    .videos-slide-left {
+        display: none;
+    }
+    .videos-slide-middle {
+        float: left;
+        width: 10%;
+        height: 100px;
+        padding-left: 2.5rem;
+        padding-right: 10rem;
+    }
+    .videos-slide-right {
+        display: none;
+    }
+    #LearnPython {
+        background-color: #e0e0e0;
+        padding-bottom: 2%;
+    }
+    .LearnPython-face {
+        max-width: 100%;
+        max-height: 150px;
+        margin-left: 7rem;
+    }
+    .LearnPython-slide-wrapper {
+        width: 250px;
+    }
+}
